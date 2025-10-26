@@ -1,0 +1,13 @@
+#app {
+  background-image: url('./lib/greybg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  #app {
+    background-image: url('./lib/greybg.svg');
+    background-size: cover;
+  }
+}
