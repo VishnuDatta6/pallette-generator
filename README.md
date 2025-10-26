@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Color Palette Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based tool that extracts dominant colors from any uploaded image using **K-Means clustering**. Instantly generate visually appealing color palettes for design, UI, or art inspiration.
+
+---
+
+## Features
+
+- Upload any image (JPEG, PNG, etc.) and generate a color palette.
+- Uses **K-Means clustering** with **k-means++ initialization** for accurate results.
+- Resizes and samples images for fast performance, even on large files.
+- Displays dominant colors as swatches with their RGB and HEX values.
+- Fully client-side — no server needed.
+- Responsive and easy-to-use interface.
+
 
 ## Available Scripts
 
